@@ -20,12 +20,12 @@ const AboutSection = () => {
             <p className="text-lg text-muted-foreground leading-relaxed">
               I'm G Krishna Lohith, a Computer Science student at Vardhaman College of Engineering (JNTUH) 
               with a strong foundation in Python, SQL, and Data Analytics. I specialize in data wrangling, 
-              exploratory data analysis, and machine learning.
+              exploratory data analysis.
             </p>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
               My journey in tech has equipped me with hands-on experience in building predictive models, 
-              creating interactive dashboards, and implementing CI/CD pipelines. I'm eager to contribute 
+              creating interactive dashboards. I'm eager to contribute 
               to impactful projects and grow as a data professional.
             </p>
 
@@ -65,7 +65,7 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Technical Focus</h3>
               <p className="text-muted-foreground">
-                Specialized in Python, Data Science, and Machine Learning. 
+                Specialized in Python, Data Analyst. 
                 Experienced with Pandas, NumPy, scikit-learn, and Power BI.
               </p>
             </div>
@@ -76,7 +76,7 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Career Goal</h3>
               <p className="text-muted-foreground">
-                Aspiring to become a Data Scientist, applying data-driven 
+                Aspiring to become a Data Analyst, applying data-driven 
                 decision-making to solve real-world business problems.
               </p>
             </div>

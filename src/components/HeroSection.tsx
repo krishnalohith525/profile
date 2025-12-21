@@ -41,13 +41,13 @@ const HeroSection = () => {
 
             {/* Role */}
             <h2 className="text-xl sm:text-2xl md:text-3xl text-muted-foreground font-medium mb-4 animate-fade-up opacity-0 delay-200">
-              Data Science Enthusiast & Python Developer
+              Data Analyst Enthusiast 
             </h2>
 
             {/* Tagline */}
             <p className="text-lg text-muted-foreground max-w-2xl mb-8 animate-fade-up opacity-0 delay-300">
               Transforming data into actionable insights. B.Tech CSE student passionate about 
-              machine learning, data analytics, and building impactful solutions.
+               data analytics, and building impactful solutions.
             </p>
 
             {/* CTA Buttons */}
