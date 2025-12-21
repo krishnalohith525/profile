@@ -26,6 +26,18 @@ const projects = [
     date: 'September 2025',
     highlights: ['Data validation', 'Constraint enforcement', 'Integrity checks'],
   },
+  {
+  title: 'Database Product Launch Management',
+  description: 'Performed data processing and validation for product launch management. Added and populated category-specific launch dates, implemented validation queries, and ensured data integrity through grouping and retrieval analysis.',
+  tech: ['SQL', 'MySQL', 'Database Management'],
+  icon: Database,
+  date: 'September 2025',
+  highlights: [
+    'Category-specific launch dates',
+    'Validation queries',
+    'Data integrity assurance'
+  ]
+}
 ];
 
 const ProjectsSection = () => {
@@ -94,18 +106,13 @@ const ProjectsSection = () => {
 
               {/* Actions */}
               <div className="flex gap-3 mt-auto">
-                <Button variant="outline" size="sm" className="flex-1" asChild>
+                <Button variant="default" size="sm" className="flex-1" asChild>
                   <a href="https://github.com/krishnalohith525" target="_blank" rel="noopener noreferrer">
                     <Github className="w-4 h-4" />
                     Code
                   </a>
                 </Button>
-                <Button variant="default" size="sm" className="flex-1" asChild>
-                  <a href="https://github.com/krishnalohith525" target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </a>
-                </Button>
+                
               </div>
             </div>
           ))}

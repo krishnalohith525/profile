@@ -17,10 +17,10 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Made with love */}
+          {/* Made with love
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
             Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> in India
-          </div>
+          </div> */}
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
