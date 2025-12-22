@@ -1,4 +1,4 @@
-import { Github, ExternalLink, Folder, BarChart2, FileText, Database } from 'lucide-react';
+import { Github, ExternalLink, Folder, BarChart2, FileText, Database , Bus} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const projects = [
@@ -37,7 +37,20 @@ const projects = [
     'Validation queries',
     'Data integrity assurance'
   ]
+},
+{
+  title: 'Bus Operations and Revenue Analysis',
+  description: 'Analyzed end-to-end bus operations data to evaluate revenue, occupancy, and route performance. Performed data cleaning, KPI calculations, and built analytical dashboards to support pricing and scheduling decisions.',
+  tech: ['SQL', 'MySQL', 'Python', 'Power BI', 'Excel'],
+  icon: Bus,
+  date: '2025',
+  highlights: [
+    'Load factor and occupancy analysis',
+    'Route-wise revenue and profit KPIs',
+    'Interactive Power BI dashboards'
+  ]
 }
+
 ];
 
 const ProjectsSection = () => {
