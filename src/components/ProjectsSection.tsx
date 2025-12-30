@@ -1,4 +1,4 @@
-import { Github, ExternalLink, Folder, BarChart2, FileText, Database , Bus} from 'lucide-react';
+import { Github, ExternalLink, Folder, BarChart2, FileText, Database , Bus,Users} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const projects = [
@@ -49,7 +49,20 @@ const projects = [
     'Route-wise revenue and profit KPIs',
     'Interactive Power BI dashboards'
   ]
+},
+{
+  title: 'HR Analyst Dashboard',
+  description: 'Analyzed HR data to evaluate employee attrition, headcount trends, and workforce performance. Performed data cleaning, KPI analysis, and built interactive dashboards for HR decision-making.',
+  tech: ['Power BI', 'SQL', 'Excel'],
+  icon: Users, 
+  date: '2025',
+  highlights: [
+    'Employee attrition and headcount analysis',
+    'HR KPIs: attrition rate, average tenure, department-wise attrition',
+    'Interactive Power BI dashboards with filters and drill-downs'
+  ]
 }
+
 
 ];
 
